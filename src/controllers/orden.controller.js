@@ -1,6 +1,6 @@
 
 import { getConnection } from "../database/conexion/connection.js";
-import { ordenQuerys } from "../database/querys/orden.querys";
+import { ordenQuerys } from "../database/querys/orden.querys.js";
 import { sql } from "../database/conexion/connection.js";
 
 export const registrarOrden = async (req, res, next) => {
